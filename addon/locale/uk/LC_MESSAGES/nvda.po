@@ -1,0 +1,1483 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Weather_Plus\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2021-07-06 13:19+0200\n"
+"PO-Revision-Date: 2021-07-06 13:19+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Alex Yeshanu <eshanuap@gmail.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../../../globalPlugins/Weather_Plus\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:62
+msgid "Fahrenheit"
+msgstr "Фаренгейта"
+
+#: __init__.py:62
+msgid "Celsius"
+msgstr "Цельсія"
+
+#: __init__.py:62
+msgid "Kelvin"
+msgstr "Кельвіна"
+
+#: __init__.py:64
+msgid "unknown"
+msgstr "невідомо"
+
+#: __init__.py:104
+msgid "Weather Plus &Settings"
+msgstr "Налаштування &Weather Plus"
+
+#: __init__.py:104
+msgid "Show configuration items."
+msgstr "Показати елементи конфігурації."
+
+#: __init__.py:106
+msgid "Set and &manage your cities..."
+msgstr "&Установка і управління містами..."
+
+#: __init__.py:106
+msgid "Displays or allows to set the current cities from a list"
+msgstr "Показує або дозволяє встановити поточні міста зі списку"
+
+#: __init__.py:109
+msgid "Set a &temporary city..."
+msgstr "Встановити тимчасовий місто..."
+
+#: __init__.py:109
+msgid "Allows to set one temporary city from a list"
+msgstr "Дозволяє встановити тимчасове місто зі списку"
+
+#: __init__.py:113
+msgid "&Documentation"
+msgstr "&Документація"
+
+#: __init__.py:113
+msgid "Opens the help file for the current language"
+msgstr "Відкриває файл довідки для поточної мови"
+
+#: __init__.py:117
+msgid "&Check for Upgrade..."
+msgstr "Перевірити &оновлення..."
+
+#: __init__.py:117
+msgid "Notify if there is an upgraded version available"
+msgstr "Повідомляти, якщо доступна оновлена версія"
+
+#: __init__.py:163
+msgid "nanometers"
+msgstr "нанометрів"
+
+#: __init__.py:166
+msgid "miles per hour"
+msgstr "миль за годину"
+
+#: __init__.py:167
+msgid "miles"
+msgstr "миль"
+
+#: __init__.py:168
+msgid "inches"
+msgstr "дюймів"
+
+#: __init__.py:169
+msgid "inches of mercury"
+msgstr "дюйми ртутного стовпа"
+
+#: __init__.py:172
+msgid "kilometers per hour"
+msgstr "кілометрів за годину"
+
+#: __init__.py:173
+msgid "kilometers"
+msgstr "кілометрів"
+
+#: __init__.py:174
+msgid "millimeters"
+msgstr "міліметрів"
+
+#: __init__.py:175
+msgid "millibars"
+msgstr "міллібарів"
+
+#: __init__.py:177
+msgid "millimeters of mercury"
+msgstr "міліметрів ртутного стовпа"
+
+#: __init__.py:203
+msgid "Settings"
+msgstr "Налаштування"
+
+#: __init__.py:203 __init__.py:2257
+msgid "Preset"
+msgstr "Встановити"
+
+#: __init__.py:203 __init__.py:3394 __init__.py:3716
+msgid "None"
+msgstr "Нічого"
+
+#: __init__.py:205
+msgid "Enter a City or choose one from the list, if available."
+msgstr "Введіть місто або виберіть одне зі списку, якщо воно наявно."
+
+#: __init__.py:379 __init__.py:1830 __init__.py:2915 __init__.py:3544
+msgid "The city"
+msgstr "Місто"
+
+#: __init__.py:380
+msgid "has not been preset."
+msgstr "не збережений."
+
+#: __init__.py:381
+msgid "Will be used in temporary mode!"
+msgstr "Буде використовуватися в тимчасовому режимі!"
+
+#: __init__.py:384 __init__.py:412 __init__.py:474 __init__.py:1836
+#: __init__.py:2745 __init__.py:2953 __init__.py:2958 __init__.py:3028
+#: __init__.py:3432 __init__.py:3553 __init__.py:3743 __init__.py:3762
+#: __init__.py:4611
+msgid "Notice!"
+msgstr "Увага!"
+
+#: __init__.py:414
+msgid "You have modified the list of your cities"
+msgstr "Ви змінили список ваших міст"
+
+#: __init__.py:414
+msgid "Do you want to save it?"
+msgstr "Бажаєте його зберегти?"
+
+#: __init__.py:471
+msgid "The cities on your list are not compatible with the Weather API!"
+msgstr "Міста в вашому списку не сумісні з API погоди!"
+
+#: __init__.py:472
+msgid ""
+"They have to be tested and validated, you can do it from the addon settings "
+"window."
+msgstr ""
+"Вони повинні бути протестовані та перевірені, ви можете зробити це з вікна "
+"налаштувань аддона."
+
+#: __init__.py:486
+msgid "Setting up a temporary city"
+msgstr "Налаштувати тимчасове місто"
+
+#: __init__.py:490
+msgid "Cities List available:"
+msgstr "Список доступних міст:"
+
+#: __init__.py:522
+msgid "Documentation not available for the current language!"
+msgstr "Документація недоступна для поточної мови!"
+
+#: __init__.py:571
+msgid ""
+"Sorry, I can not receive data, problems with the download page, try again "
+"later please!"
+msgstr ""
+"На жаль, неможливо отримати дані, проблеми зі сторінкою завантаження. "
+"Повторіть спробу пізніше, будь ласка!"
+
+#: __init__.py:574 __init__.py:1697 __init__.py:2876 __init__.py:3187
+#: __init__.py:3218
+msgid ""
+"Sorry, I can not receive data, verify that your internet connection is "
+"active, or try again later!"
+msgstr ""
+"На жаль, неможливо отримати дані, переконайтеся, що ваше інтернет-з'єднання "
+"активно або спробуйте ще раз!"
+
+#: __init__.py:586
+msgid "version"
+msgstr "версія"
+
+#: __init__.py:586
+msgid "is available."
+msgstr "доступна."
+
+#: __init__.py:587
+msgid "Installed version"
+msgstr "Встановлена версія"
+
+#: __init__.py:588
+msgid "Do you want to download and install it?"
+msgstr "Ви хочете завантажити і встановити його?"
+
+#: __init__.py:593
+msgid "Sorry, at the time an update is not available."
+msgstr "На жаль, на даний момент оновлення не доступно."
+
+#: __init__.py:1071 __init__.py:2884 __init__.py:5268
+msgid "not found!"
+msgstr "не знайден!"
+
+#: __init__.py:1072
+msgid ""
+"You need to upgrade the sound effects by reactivating the appropriate option "
+"from the settings of"
+msgstr ""
+"Вам необхідно оновити звукові ефекти, для чого треба активізувати відповідну "
+"опцію в налаштуваннях"
+
+#: __init__.py:1074
+msgid "But if these are already updated, then you need to update"
+msgstr "Але якщо вони вже оновлені, то вам потрібно оновити"
+
+#: __init__.py:1246
+msgid "I can not load the settings!"
+msgstr "Не можу завантажити налаштування!"
+
+#: __init__.py:1246
+msgid "Attention!"
+msgstr "Увага!"
+
+#: __init__.py:1316
+msgid "I can not save the settings!"
+msgstr "Не можу зберегти налаштування!"
+
+#: __init__.py:1331
+msgid "invalid name"
+msgstr "неприпустиме ім'я"
+
+#: __init__.py:1422
+msgid "The cloudiness is"
+msgstr "Хмарність"
+
+#: __init__.py:1423
+msgid "The precipitation is"
+msgstr "Опади"
+
+#: __init__.py:1467
+msgid "the weather report is currently"
+msgstr "зараз"
+
+#: __init__.py:1468 __init__.py:1508 __init__.py:1614 __init__.py:1641
+#: __init__.py:1963
+msgid "degrees"
+msgstr "градуси"
+
+#: __init__.py:1475
+msgid "The wind direction is from"
+msgstr "Вітер"
+
+#: __init__.py:1481 __init__.py:1493
+msgid "with speed of"
+msgstr "швидкість"
+
+#: __init__.py:1486 __init__.py:1497
+msgid "The wind speed is"
+msgstr "Швидкість вітру"
+
+#: __init__.py:1505
+msgid "The wind gusts are of"
+msgstr "Пориви вітру"
+
+#: __init__.py:1508
+msgid "The perceived temperature is"
+msgstr "Сприймається температура"
+
+#: __init__.py:1515
+msgid "The humidity is"
+msgstr "Вологість"
+
+#: __init__.py:1517
+msgid "The cloudiness is of"
+msgstr "Хмарність"
+
+#: __init__.py:1519
+msgid "The precipitation is of"
+msgstr "Опади"
+
+#: __init__.py:1524
+msgid "and the visibility is up to"
+msgstr "видимість"
+
+#: __init__.py:1533
+msgid "The visibility is up to"
+msgstr "Видимість"
+
+#: __init__.py:1538
+msgid "and the precipitation is"
+msgstr "і опади"
+
+#: __init__.py:1555
+msgid "The pressure is"
+msgstr "Тиск"
+
+#: __init__.py:1559
+msgid "The UV radiation is of"
+msgstr "Ультрафіолетове випромінювання"
+
+#: __init__.py:1580
+msgid "The sun rises at"
+msgstr "Схід сонця в"
+
+#: __init__.py:1581 __init__.py:1583
+msgid "and sets at"
+msgstr "захід у"
+
+#: __init__.py:1582
+msgid "The moon rises at"
+msgstr "Схід місяця в"
+
+#: __init__.py:1610
+msgid "the forecast for today is"
+msgstr "сьогодні"
+
+#: __init__.py:1612 __init__.py:1639
+msgid "with a maximum temperature of"
+msgstr "максимальна температура"
+
+#: __init__.py:1613 __init__.py:1640
+msgid "and a minimum of"
+msgstr "мінімальна"
+
+#: __init__.py:1647
+msgid "not available"
+msgstr "недоступно"
+
+#: __init__.py:1651
+msgid "In"
+msgstr "У місті"
+
+#: __init__.py:1651
+msgid "Unnamed"
+msgstr "Без імені"
+
+#: __init__.py:1663 __init__.py:1888 __init__.py:2080
+msgid "Sorry, the city is not set!"
+msgstr "Вибачте, місто не встановлено!"
+
+#: __init__.py:1678 __init__.py:2988 __init__.py:3170 __init__.py:3629
+#: __init__.py:3764 __init__.py:5442
+msgid "Please wait..."
+msgstr "Будь ласка, зачекайте..."
+
+#: __init__.py:1721
+msgid "Sorry, it was not possible to load the most recent update!"
+msgstr "На жаль, не вдалося завантажити останні оновлення!"
+
+#: __init__.py:1722
+msgid "Please try again later."
+msgstr "Будь ласка, спробуйте ще раз пізніше."
+
+#: __init__.py:1765 __init__.py:1766
+msgid "meters per second"
+msgstr "метрів за секунду"
+
+#: __init__.py:1805
+msgid "Sorry, the city set is not valid or contains incomplete data!"
+msgstr "Вибачте, місто встановлене неправильно або містить неповні дані!"
+
+#: __init__.py:1813
+msgid "north"
+msgstr "північний"
+
+#: __init__.py:1813
+msgid "north northeast"
+msgstr "північний, північно-східний"
+
+#: __init__.py:1813
+msgid "northeast"
+msgstr "північно-східний"
+
+#: __init__.py:1813
+msgid "east northeast"
+msgstr "східний, північно-східний"
+
+#: __init__.py:1813
+msgid "east"
+msgstr "східний"
+
+#: __init__.py:1813
+msgid "east southeast"
+msgstr "східний, південно-східний"
+
+#: __init__.py:1813
+msgid "southeast"
+msgstr "південно-східний"
+
+#: __init__.py:1813
+msgid "south southeast"
+msgstr "південний, південно-східний"
+
+#: __init__.py:1814
+msgid "south"
+msgstr "південний"
+
+#: __init__.py:1814
+msgid "south southwest"
+msgstr "південний, південно-західний"
+
+#: __init__.py:1814
+msgid "southwest"
+msgstr "південно-західний"
+
+#: __init__.py:1814
+msgid "west southwest"
+msgstr "західний, південно-західний"
+
+#: __init__.py:1814
+msgid "west"
+msgstr "західний"
+
+#: __init__.py:1814
+msgid "west northwest"
+msgstr "західний, північно-західний"
+
+#: __init__.py:1814
+msgid "northwest"
+msgstr "північно-західний"
+
+#: __init__.py:1814
+msgid "north northwest"
+msgstr "північний, північно-західний"
+
+#: __init__.py:1831
+msgid ""
+"Is not working properly, contains incomplete data or has been removed from "
+"the"
+msgstr "Не працює належним чином, містить неповні дані або був видалений з"
+
+#: __init__.py:1833 __init__.py:2909
+msgid "It could be a temporary problem and you may wait a while '..."
+msgstr "Це може бути тимчасовою проблемою, зачекайте '..."
+
+#: __init__.py:1834
+msgid "Do you want to delete it from your list?"
+msgstr "Ви дійсно бажаєте видалити його з вашого списку?"
+
+#: __init__.py:1905
+msgid "Chance of rain"
+msgstr "Імовірність дощу"
+
+#: __init__.py:1906
+msgid "Chance of snow"
+msgstr "Імовірність снігу"
+
+#: __init__.py:1951
+msgid "Wind speed"
+msgstr "Швидкість вітру"
+
+#: __init__.py:1952
+msgid "Direction"
+msgstr "Напрямок"
+
+#: __init__.py:1953
+msgid "Wind direction"
+msgstr "Напрямок вітру"
+
+#: __init__.py:1954
+msgid "Wind gusts"
+msgstr "Пориви вітру"
+
+#: __init__.py:1955
+msgid "Cloudiness"
+msgstr "Хмарність"
+
+#: __init__.py:1956
+msgid "Precipitation"
+msgstr "Опади"
+
+#: __init__.py:1957
+msgid "Humidity"
+msgstr "Вологість"
+
+#: __init__.py:1958
+msgid "Visibility"
+msgstr "Видимість"
+
+#: __init__.py:1977
+msgid "Hourly forecast for"
+msgstr "Погодинний прогноз"
+
+#: __init__.py:2002
+msgid "Provides the current temperature and weather conditions."
+msgstr "Надає відомості про поточну температуру і погодні умови."
+
+#: __init__.py:2014
+#, python-format
+msgid ""
+"If pressed once, announce the weather forecast and current temperature for "
+"24 hours and the next %d days. If pressed twice announce the hourlyforecast "
+"temperature and weather conditions."
+msgstr ""
+"При натисканні один раз, оголошує прогноз погоди і поточну температуру "
+"Протягом 24 годин і наступних %d днів. При натисканні двічі оголошує "
+"погодинну температуру і погодні умови."
+
+#: __init__.py:2022
+msgid "Sorry, no list available!"
+msgstr "На жаль, список не доступний!"
+
+#: __init__.py:2055
+msgid "Allows you to set a temporary city."
+msgstr "Дозволяє встановити тимчасове місто."
+
+#: __init__.py:2069
+msgid "Scale of temperature measurement set into"
+msgstr "Шкала вимірювання температури в"
+
+#: __init__.py:2071
+msgid "Allows you to set a temporary scale of temperature mesurement."
+msgstr "Дозволяє встановити тимчасову шкалу вимірювання."
+
+#: __init__.py:2101
+msgid "at"
+msgstr "в"
+
+#: __init__.py:2104
+msgid "Last update of the current weather report"
+msgstr "Останнє оновлення прогнозу погоди"
+
+#: __init__.py:2106
+msgid "Announces the date of the last update of the weather report."
+msgstr "Оголошення дати останнього оновлення погоди."
+
+#: __init__.py:2166
+msgid "Open the Weather Plus settings dialog."
+msgstr "Відкриває діалог налаштувань Weather Plus."
+
+#: __init__.py:2209
+msgid ""
+"f1: help placing, f2: last TAB selection, f3: list and edit box, f4: control "
+"duration Weather Forecast, f5: volume controls."
+msgstr ""
+"f1: допомога розміщення, f2: останній вибір TAB, f3: список і вікно "
+"редагування, f4: управління тривалістю прогнозу погоди, f5: управління "
+"гучністю."
+
+#: __init__.py:2210
+msgid ""
+"f1: help placing, f2: last TAB selection, f3: list and edit box, f4: control "
+"duration Weather Forecast."
+msgstr ""
+"f1: допомога розміщення, f2: останній вибір TAB, f3: список і вікно "
+"редагування, f4: управління тривалістю прогнозу погоди."
+
+#: __init__.py:2253
+msgid "Test"
+msgstr "Тест"
+
+#: __init__.py:2254
+msgid "Details"
+msgstr "Подробиці"
+
+#: __init__.py:2255
+msgid "Define"
+msgstr "Визначити"
+
+#: __init__.py:2256
+msgid "Add"
+msgstr "Додати"
+
+#: __init__.py:2258
+msgid "Remove"
+msgstr "Видалити"
+
+#: __init__.py:2259
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: __init__.py:2285
+msgid "&Import new cities..."
+msgstr "&Імпортувати нові міста..."
+
+#: __init__.py:2286
+msgid "&Export your cities..."
+msgstr "&Експортувати міста..."
+
+#: __init__.py:2287
+msgid "&hourlyforecast setting..."
+msgstr "Налаштування по&годинного прогнозу ..."
+
+#: __init__.py:2302
+msgid "Scale of temperature measurement:"
+msgstr "Шкала вимірювання температури:"
+
+#: __init__.py:2310
+msgid "Degrees shown as:"
+msgstr "Показувати градуси в:"
+
+#: __init__.py:2313
+msgid "C - F - K"
+msgstr "C - F - K"
+
+#: __init__.py:2314
+msgid "Unspecified"
+msgstr "Не вказувати"
+
+#: __init__.py:2322
+msgid "Weather Forecasts up to days:"
+msgstr "Прогноз погоди на число днів:"
+
+#: __init__.py:2333
+msgid "API response language:"
+msgstr "Мова відповіді API:"
+
+#: __init__.py:2342
+msgid ""
+"&Copy the weather report and weather forecast, including city details to "
+"clipboard"
+msgstr ""
+"&Копіювати метеозведення і прогноз погоди, включаючи відомості про місто в "
+"буфер обміну"
+
+#: __init__.py:2347
+msgid "Enable &audio effects (only for the current weather conditions)"
+msgstr "Включити &аудіо ефекти (тільки для поточної погоди)"
+
+#: __init__.py:2350
+msgid "Use only &weather effects"
+msgstr "Використовувати тільки погодні е&фекти"
+
+#: __init__.py:2355
+msgid "General audio volume"
+msgstr "Загальна гучність звуку"
+
+#: __init__.py:2356
+msgid "Current audio volume"
+msgstr "Поточна гучність звуку"
+
+#: __init__.py:2388
+msgid "Enable &help buttons in the settings window"
+msgstr "Включити кнопки з &підказками у вікні налаштувань"
+
+#: __init__.py:2395
+msgid "Read &wind information"
+msgstr "Читати інформацію про &вітер"
+
+#: __init__.py:2400 __init__.py:5847
+msgid "Add wind directi&on"
+msgstr "Додати &напрямок вітру"
+
+#: __init__.py:2404 __init__.py:5843
+msgid "Add wi&nd speed"
+msgstr "Додати швидкість в&ітру"
+
+#: __init__.py:2408
+msgid "Add speed in &meters per second of the wind"
+msgstr "Додати &швидкість вітру в метрах за секунду"
+
+#: __init__.py:2412 __init__.py:5851
+msgid "Add wind &gust speed"
+msgstr "Додати швидкість і пориви вітру"
+
+#: __init__.py:2416
+msgid "Add perceived &temperature"
+msgstr "Додати сприйняту &температуру"
+
+#: __init__.py:2421
+msgid "&Read atmospherical information"
+msgstr "Читати ат&мосферную інформацію"
+
+#: __init__.py:2426 __init__.py:5859
+msgid "Add humidity va&lue"
+msgstr "Додати значення во&логості"
+
+#: __init__.py:2430 __init__.py:5863
+msgid "Add &visibility value"
+msgstr "Додати значення видим&ості"
+
+#: __init__.py:2434 __init__.py:5855
+msgid "Add cloudiness &value"
+msgstr "Додати значення &хмарності"
+
+#: __init__.py:2438 __init__.py:5867
+msgid "Add precipitation &value"
+msgstr "Додати значення &опадів"
+
+#: __init__.py:2442 __init__.py:5871
+msgid "Add &ultraviolet radiation value"
+msgstr "Додати значення ультра&фіолетової радіації"
+
+#: __init__.py:2446
+msgid "Add atmospheric &pressure value"
+msgstr "&Додати значення атмосферного тиску"
+
+#: __init__.py:2450
+msgid "Indicates the atmospheric pressure in millimeters of mercur&y (mmHg)"
+msgstr "Вказувати атмосферний тиск в міліметрах рт&утного стовпа (мм рт.ст.)"
+
+#: __init__.py:2455
+msgid "Read a&stronomical information"
+msgstr "Читати аст&рономічну інформацію"
+
+#: __init__.py:2459
+msgid "Enable reading of the hours in &24-hour format"
+msgstr "Включити читання годин в &24-годинному форматі"
+
+#: __init__.py:2464
+msgid "Use the comma to separate decimals, example (4,&15)"
+msgstr "Використовувати коми для розділення десяткових знаків, приклад (4,&15)"
+
+#: __init__.py:2468
+msgid "&Displays output in a window"
+msgstr "&Відображає вихід у вікні"
+
+#: __init__.py:2472
+msgid "Check for &upgrade"
+msgstr "Перевір&яти оновлення"
+
+#: __init__.py:2499
+msgid "Test the city validity  and find the data of it."
+msgstr "Перевірка достовірності міста і пошук його даних."
+
+#: __init__.py:2500
+msgid "Add the current city into your list."
+msgstr "Додати поточне місто в свій список."
+
+#: __init__.py:2501
+msgid "Displays information about the current city."
+msgstr "Відображає інформацію про поточне місто."
+
+#: __init__.py:2502
+msgid "Allows you to define the area, in order to adapt the sound effects."
+msgstr "Дозволяє визначити місцевість, щоб адаптувати звукові ефекти."
+
+#: __init__.py:2503
+msgid ""
+"Presets the current city as the default, will be used every time you restart "
+"the plugin."
+msgstr ""
+"Налаштовує поточне місто за замовчуванням. Використовуватиметься після "
+"кожного перезапуску плагіна."
+
+#: __init__.py:2504
+msgid "Delete  the current city from your list."
+msgstr "Видалити поточне місто зі списку."
+
+#: __init__.py:2505
+msgid "Rename the current city."
+msgstr "Перейменувати поточне місто."
+
+#: __init__.py:2506
+msgid ""
+"Permits to incorporate in your list new cities importing them from another "
+"list with the extension *.zipcodes; you can select the city you want to "
+"import, by turning on the check box associated."
+msgstr ""
+"Дозволяє включати в свій список нові міста, імпортуючи їх з іншого списку з "
+"розширенням *.zipcodes. Ви можете вибрати місто, яке потрібно імпортувати, "
+"встановивши відповідний прапорець."
+
+#: __init__.py:2507
+msgid "Permits to save your list of cities in a specified path."
+msgstr "Дозволяє зберегти ваш список міст за зазначеним шляхом."
+
+#: __init__.py:2508
+msgid "Allows you to choose the contents of the hourly forecast report."
+msgstr "Дозволяє вибрати вміст погодинного прогнозу."
+
+#: __init__.py:2615
+msgid "You can enter or search for a city"
+msgstr "Ви можете ввести або знайти місто"
+
+#: __init__.py:2616
+msgid "By Latitude and Longitude: 48.8567,2.3508"
+msgstr "За широтою та довготою: 48.8567,2.3508"
+
+#: __init__.py:2617
+msgid "By City name: Paris"
+msgstr "За назвою міста: Paris"
+
+#: __init__.py:2618
+msgid "By City name and country: Toronto,Canada"
+msgstr "За назвою міста: Toronto,Canada"
+
+#: __init__.py:2619
+msgid "Or Toronto,CA"
+msgstr "Или Toronto,CA"
+
+#: __init__.py:2620
+msgid "By City name and region: Toronto,Ontario"
+msgstr "За назвою міста: Toronto,Ontario"
+
+#: __init__.py:2621
+msgid "By US zip: 10001"
+msgstr "За індексом США: 10001"
+
+#: __init__.py:2622
+msgid "By UK postcode: SW1"
+msgstr "За поштовим індексом Великобританії: SW1"
+
+#: __init__.py:2623
+msgid "By Canada postal code: G2J"
+msgstr "За поштовим індексом Канади: G2J"
+
+#: __init__.py:2624
+msgid "By metar:<metar code>: metar:EGLL"
+msgstr "За метаром:<metar code>: metar:EGLL"
+
+#: __init__.py:2625
+msgid "By iata:<3 digit airport code>: iata:DXB"
+msgstr "За IATA: <3-значний код аеропорту>: iata:DXB"
+
+#: __init__.py:2626
+msgid "By auto:ip IP lookup: auto:ip"
+msgstr "За авто: ip пошук IP: auto:ip"
+
+#: __init__.py:2627
+msgid "By IP address (IPv4 and IPv6 supported): 100.0.0.1"
+msgstr "За IP-адресою (підтримується IPv4 і IPv6): 100.0.0.1"
+
+#: __init__.py:2628
+msgid "if there will be cities with the same name, will be listed"
+msgstr "якщо будуть міста з тим же ім'ям, вони будуть перераховані"
+
+#: __init__.py:2629
+msgid "By default, confirming a selection, is used the postal code"
+msgstr ""
+"За замовчуванням, для підтвердження вибору використовується поштовий індекс"
+
+#: __init__.py:2630
+msgid ""
+"If the postal code is not valid, will be used a text string: city, state, "
+"region"
+msgstr ""
+"Якщо поштовий індекс неприпустимий, буде використовуватися текстовий рядок: "
+"Місто, штат, регіон"
+
+#: __init__.py:2631
+msgid "You can indicate how to proceed by prefixing the following commands"
+msgstr "Ви можете вказати, як діяти шляхом префікса наступних команд"
+
+#: __init__.py:2632
+msgid ""
+"Direct (cities with the same name, will not listed), by typing D:City: D:"
+"Paris"
+msgstr ""
+"Прямі (міста з тим же ім'ям, що не будуть перераховані), набравши D: city: "
+"D: Paris"
+
+#: __init__.py:2633
+msgid "Geographic coordinates, by typing G:City: G:Venezia"
+msgstr "Географічні координати, набравши G:city: G:Venezia"
+
+#: __init__.py:2634
+msgid "Text string, by typing T:City: T:Bologna"
+msgstr "Текстовий рядок, набравши T:city: T:Bologna"
+
+#: __init__.py:2635
+msgid "If the city is not found"
+msgstr "Якщо місто не найдено"
+
+#: __init__.py:2636
+msgid "Try to reverse the order in the search key"
+msgstr "Спробуйте змінити порядок в запиті пошуку"
+
+#: __init__.py:2637
+msgid "Try with or without the country of origin"
+msgstr "Спробуйте з, або без країни походження"
+
+#: __init__.py:2638
+msgid "Try to merge the name with hyphens, or separate it with separator"
+msgstr "Спробуйте об'єднати ім'я дефісами або відокремити його"
+
+#: __init__.py:2639
+msgid "Try deleting apostrophes"
+msgstr "Спробуйте видалити апостроф"
+
+#: __init__.py:2640
+msgid "Try changing the vowels accented with normal vowels"
+msgstr "Спробуйте змінити голосні з наголосом на нормальні голосні"
+
+#: __init__.py:2641
+msgid "Try to change in English some parts"
+msgstr "Спробуйте змінити англійською мовою деякі частини"
+
+#: __init__.py:2642
+msgid "Try with a closest location"
+msgstr "Спробуйте найближче розташування"
+
+#: __init__.py:2645
+msgid "Help placing"
+msgstr "Допомога розміщення"
+
+#: __init__.py:2742
+msgid "No sound effect in memory!"
+msgstr "Немає звукового ефекту в пам'яті!"
+
+#: __init__.py:2743
+msgid "I can't reproduce the sound."
+msgstr "Я не можу відтворити звук."
+
+#: __init__.py:2839
+msgid "Choose search key for"
+msgstr "Виберіть запит пошуку для"
+
+#: __init__.py:2859
+msgid "Unfortunately I could not recover enough data to find the city."
+msgstr "На жаль, не вийшло відновити достатньо даних, щоб знайти місто."
+
+#: __init__.py:2860
+msgid "Do I try anyway?"
+msgstr "Спробувати ще раз?"
+
+#: __init__.py:2883
+msgid "not found! Press F1 for help on entering data."
+msgstr "не знайдено! Натисніть F1 для довідки щодо введення даних."
+
+#: __init__.py:2907
+msgid "Is not working properly or has been removed from the database of"
+msgstr "Чи не працює належним чином або був видалений з бази даних"
+
+#: __init__.py:2911
+msgid "Is no longer valid!"
+msgstr "Більше не діє!"
+
+#: __init__.py:2944
+msgid "This option requires the installation of some audio effects"
+msgstr "Ця установка вимагає установки деяких аудіо ефектів"
+
+#: __init__.py:2945
+msgid "Do you want to install them?"
+msgstr "Ви хочете встановити їх?"
+
+#: __init__.py:2949
+msgid "The audio effects are installed!"
+msgstr "Аудіо ефекти встановлені!"
+
+#: __init__.py:2950
+msgid "Would you like to update?"
+msgstr "Ви бажаєте оновити?"
+
+#: __init__.py:2951
+msgid "Or do you want to uninstall them?"
+msgstr "Або хочете видалити їх?"
+
+#: __init__.py:2958
+msgid "Are you sure you want to uninstall the sound effects?"
+msgstr "Ви впевнені, що хочете видалити звукові ефекти?"
+
+#: __init__.py:2986
+msgid "Update in progress"
+msgstr "Йде оновлення"
+
+#: __init__.py:2987
+msgid "Installation in progress"
+msgstr "Прогрес установки"
+
+#: __init__.py:3016
+msgid "The installation of audio effects has been completed successfully!"
+msgstr "Установка аудіо ефектів успішно завершена!"
+
+#: __init__.py:3017
+msgid "Adding folder:"
+msgstr "Додана папка:"
+
+#: __init__.py:3019
+msgid "The upgrade of audio effects has been completed successfully!"
+msgstr "Оновлення аудіо ефектів успішно завершено!"
+
+#: __init__.py:3026
+msgid "These sound effects are subject to change by the author."
+msgstr "Ці звукові ефекти можуть бути змінені автором."
+
+#: __init__.py:3027
+msgid "Disable and re-enable this option in order to update or uninstall them."
+msgstr "Відключити і знову включити цей параметр, щоб оновити або видалити їх."
+
+#: __init__.py:3088
+msgid "Verify that your internet connection is active, or try again later."
+msgstr ""
+"Переконайтеся, що підключення до інтернету активно або спробуйте ще раз."
+
+#: __init__.py:3089
+msgid "File corrupted or not available!"
+msgstr "Файл пошкоджений або не доступний!"
+
+#: __init__.py:3091
+msgid "Sorry, I could not complete the installation of the sound effects!"
+msgstr "На жаль, закінчити установку звукових ефектів неможливо!"
+
+#: __init__.py:3092
+msgid "Installation Error!"
+msgstr "Помилка Установки!"
+
+#: __init__.py:3196
+msgid ""
+"The details of this city are not in the database and so I added them to the "
+"list."
+msgstr ""
+
+#: __init__.py:3203
+msgid "Cannot identify your location, due to insufficient data."
+msgstr "Неможливо визначити місце розташування через нестачу даних."
+
+#: __init__.py:3231
+msgid "Details of"
+msgstr "Подробиці"
+
+#: __init__.py:3234
+msgid "Place"
+msgstr "Місце"
+
+#: __init__.py:3235
+msgid "Current local time"
+msgstr "Поточний місцевий час"
+
+#: __init__.py:3236
+msgid "Degrees latitude"
+msgstr "Градусів північної широти"
+
+#: __init__.py:3237
+msgid "Degrees longitude"
+msgstr "Градусів довготи"
+
+#: __init__.py:3238
+msgid "Elevation above sea level"
+msgstr "Висота над рівнем моря"
+
+#: __init__.py:3238
+msgid "meters"
+msgstr "метрів"
+
+#: __init__.py:3263
+msgid "Define the area for"
+msgstr "Визначити місцевість для"
+
+#: __init__.py:3267
+msgid "Hinterland"
+msgstr "Внутрішні райони країни"
+
+#: __init__.py:3268
+msgid "Maritime area"
+msgstr "Море"
+
+#: __init__.py:3269
+msgid "Desert zone"
+msgstr "Пустеля"
+
+#: __init__.py:3270
+msgid "Arctic zone"
+msgstr "Арктика"
+
+#: __init__.py:3271
+msgid "Mountain zone"
+msgstr "Гори"
+
+#: __init__.py:3423
+msgid "Enter new name."
+msgstr "Введіть нове ім'я."
+
+#: __init__.py:3432
+msgid "it can't be used because it already exists!"
+msgstr "його не можна використовувати, тому що воно вже існує!"
+
+#: __init__.py:3544
+msgid "is correct"
+msgstr "правильно"
+
+#: __init__.py:3545
+msgid "But the name"
+msgstr "Але назва"
+
+#: __init__.py:3547
+msgid "already exists"
+msgstr "вже існує"
+
+#: __init__.py:3548
+msgid "You have to change it!"
+msgstr "Ви повинні її змінити!"
+
+#: __init__.py:3549
+msgid "The city proper is"
+msgstr "Місто знаходиться"
+
+#: __init__.py:3551
+msgid "Want to use the suggested name?"
+msgstr "Бажаєте використовувати запропоноване ім'я?"
+
+#: __init__.py:3563
+msgid "Import cities"
+msgstr "Імпорт міст"
+
+#: __init__.py:3581
+msgid "Empty file or not in cities format compatible!"
+msgstr "Порожній файл або несумісний з форматом міста!"
+
+#: __init__.py:3587
+msgid "Do you want to replace your list with this?"
+msgstr "Ви бажаєте замінити свій список цим?"
+
+#: __init__.py:3588
+msgid "If you select yes, your list will be completely replaced."
+msgstr "Якщо ви оберете Так, то ваш список буде повністю замінений."
+
+#: __init__.py:3589
+msgid "If you select no, the new cities will be added to your list."
+msgstr "Якщо ви оберете Ні, нові міста будуть додані в ваш список."
+
+#: __init__.py:3592
+msgid "Select import mode"
+msgstr "Виберіть режим імпорту"
+
+#: __init__.py:3603
+msgid "File contents"
+msgstr "Вміст файлу"
+
+#: __init__.py:3604
+msgid "cities"
+msgstr "міст"
+
+#: __init__.py:3607
+msgid "Activate the check boxes of the cities you want to import."
+msgstr "Відзначте прапорці міст, які потрібно імпортувати."
+
+#: __init__.py:3628
+msgid "Importing cities in progress"
+msgstr "Виконується імпорт міст"
+
+#: __init__.py:3720
+msgid "Were added"
+msgstr "Було додано"
+
+#: __init__.py:3720
+msgid "new cities to the list"
+msgstr "нових міст в список"
+
+#: __init__.py:3721
+msgid "Have been ignored because existing"
+msgstr "Було проігноровано, оскільки існують"
+
+#: __init__.py:3722
+msgid "Content of imported list"
+msgstr "Зміст імпортованого списку"
+
+#: __init__.py:3723
+msgid "Containing incomplete data"
+msgstr "Містять неповні дані"
+
+#: __init__.py:3724
+msgid "selected by the user"
+msgstr "вибрані користувачем"
+
+#: __init__.py:3725
+msgid "Import finished"
+msgstr "Імпорт закінчен"
+
+#: __init__.py:3737
+msgid "A copy of"
+msgstr "Копія"
+
+#: __init__.py:3739
+msgid "It will be exported"
+msgstr "Буде експортований"
+
+#: __init__.py:3740
+msgid "But it does not yet contain the changes you just made the list!"
+msgstr "Але ще не містить внесені зміни в списку!"
+
+#: __init__.py:3741
+msgid "I proceed?"
+msgstr "Продовжити?"
+
+#: __init__.py:3747
+msgid "Export cities"
+msgstr "Експорт міст"
+
+#: __init__.py:3762
+msgid "You can not export the same file at the same path!"
+msgstr "Ви не можете експортувати той же файл за тим самим шляхом!"
+
+#: __init__.py:3782
+msgid "Hourlyforecast data report values."
+msgstr "Значення даних погодинного прогнозу."
+
+#: __init__.py:3782
+msgid "Disable the data you don't want to be processed:"
+msgstr "Відключити дані, які ви не хочете обробляти:"
+
+#: __init__.py:4529
+msgid "january"
+msgstr "січня"
+
+#: __init__.py:4530
+msgid "february"
+msgstr "лютого"
+
+#: __init__.py:4531
+msgid "march"
+msgstr "березня"
+
+#: __init__.py:4532
+msgid "april"
+msgstr "квітня"
+
+#: __init__.py:4533
+msgid "may"
+msgstr "травня"
+
+#: __init__.py:4534
+msgid "june"
+msgstr "червня"
+
+#: __init__.py:4535
+msgid "july"
+msgstr "липня"
+
+#: __init__.py:4536
+msgid "august"
+msgstr "серпня"
+
+#: __init__.py:4537
+msgid "september"
+msgstr "вересня"
+
+#: __init__.py:4538
+msgid "october"
+msgstr "жовтня"
+
+#: __init__.py:4539
+msgid "november"
+msgstr "листопада"
+
+#: __init__.py:4540
+msgid "december"
+msgstr "грудня"
+
+#: __init__.py:4541
+msgid "Monday"
+msgstr "В понеділок"
+
+#: __init__.py:4542
+msgid "Tuesday"
+msgstr "У вівторок"
+
+#: __init__.py:4543
+msgid "Wednesday"
+msgstr "У середу"
+
+#: __init__.py:4544
+msgid "Thursday"
+msgstr "У четвер"
+
+#: __init__.py:4545
+msgid "Friday"
+msgstr "У п'ятницю"
+
+#: __init__.py:4546
+msgid "Saturday"
+msgstr "У суботу"
+
+#: __init__.py:4547
+msgid "Sunday"
+msgstr "У неділю"
+
+#: __init__.py:4605
+#, python-format
+msgid "It was not possible find the acronym of \"%s\"!"
+msgstr "Неможливо знайти абревіатуру \"%s\"!"
+
+#: __init__.py:4606
+msgid "This may not allow you to get the city details."
+msgstr "Це може не дозволити вам отримати деталі міста."
+
+#: __init__.py:4607
+msgid ""
+"Please report this to the author so he can add this country in database."
+msgstr ""
+"Будь ласка, повідомте про це автору, щоб він міг додати цю країну в базу "
+"даних."
+
+#: __init__.py:4608
+#, python-format
+msgid "Send an email to %s"
+msgstr "Відправте лист на %s"
+
+#: __init__.py:4609
+msgid "With  object the line below, thanks."
+msgstr "З об'єктом рядку нижче, спасибі."
+
+#: __init__.py:4677 __init__.py:4695
+msgid "Downloaded"
+msgstr "Завантажено"
+
+#: __init__.py:4678
+msgid "of"
+msgstr "з"
+
+#: __init__.py:4716
+msgid "Find..."
+msgstr "Знайти..."
+
+#: __init__.py:4717
+msgid "Find next"
+msgstr "Знайти Наступну"
+
+#: __init__.py:4718
+msgid "Find previous"
+msgstr "Знайти Попередню"
+
+#: __init__.py:4917
+msgid "Be an error has occurred."
+msgstr "Виникла помилка."
+
+#: __init__.py:4918
+msgid "See the log for more information."
+msgstr "Для додаткової інформації дивіться журнал."
+
+#: __init__.py:4919
+msgid "Error: failure writing file!"
+msgstr "Помилка: не вдалося записати файл!"
+
+#: __init__.py:5063
+msgid "occurrences found"
+msgstr "місцезнаходжень знайдено"
+
+#: __init__.py:5063
+msgid "for"
+msgstr "для"
+
+#: __init__.py:5065
+msgid "Choose a city."
+msgstr "Вибрати місто."
+
+#: __init__.py:5067
+msgid "List of availables Cities"
+msgstr "Список доступних міст"
+
+#: __init__.py:5099
+msgid "Do not show this message again!"
+msgstr "Більше не показувати це повідомлення!"
+
+#: __init__.py:5109
+msgid "&Install..."
+msgstr "У&становити..."
+
+#: __init__.py:5109
+msgid "Upd&ate..."
+msgstr "&Оновити..."
+
+#: __init__.py:5111
+msgid "&Close"
+msgstr "&Закрити"
+
+#: __init__.py:5112
+msgid "&Uninstall..."
+msgstr "&Видалити..."
+
+#: __init__.py:5214
+msgid "Type the search string"
+msgstr "Для пошуку введіть текст"
+
+#: __init__.py:5214 __init__.py:5268
+msgid "Find"
+msgstr "Пошук"
+
+#: __init__.py:5265
+msgid "next"
+msgstr "наступний"
+
+#: __init__.py:5265
+msgid "previous"
+msgstr "попередній"
+
+#: __init__.py:5272
+msgid "No results next for"
+msgstr "Немає наступних результатів для"
+
+#: __init__.py:5272
+msgid "No previous results for"
+msgstr "Немає попередніх результатів для"
+
+#: __init__.py:5314
+msgid "&Select all"
+msgstr "&Обрати все"
+
+#: __init__.py:5316
+msgid "&Deselect all"
+msgstr "&зняти виділення"
+
+#: __init__.py:5356
+msgid "not checked"
+msgstr "не відзначений"
+
+#: __init__.py:5358
+msgid "checked"
+msgstr "відзначений"
+
+#: __init__.py:5362
+msgid "check box"
+msgstr "прапорець"
+
+#: __init__.py:5372
+msgid "check boxes checked"
+msgstr "прапорці відзначені"
+
+#: __init__.py:5381
+msgid "check boxes not checked"
+msgstr "прапорці не відзначені"
+
+#: __init__.py:5443
+msgid "Saving in progress"
+msgstr "Йде збереження"
+
+#: __init__.py:5445
+msgid "Download canceled."
+msgstr "Завантаження скасовано."
+
+#: __init__.py:5499
+msgid "&Copy to clipboard"
+msgstr "&Скопіювати в буфер обміну"
+
+#: buildVars.py:23
+msgid ""
+"Adds local temperature and forecast 24 ours and prediction up to 2 days.\n"
+msgstr ""
+"Додає локальну температуру і прогноз на 24 години і прогноз на 2 дні.\n"
+
+#: buildVars.py:24
+msgid "NVDA+w for the current bulletin.\n"
+msgstr "NVDA+w для поточної погоди.\n"
+
+#: buildVars.py:25
+msgid ""
+"NVDA+shift+w for the prediction in the current 24 hours and prediction up to "
+"2 days.\n"
+msgstr "NVDA+Shift+W для прогнозу на найближчі 24 години і на 2 дні.\n"
+
+#: buildVars.py:26
+msgid ""
+"NVDA+shift+w, pressed twice provides the hourlyforecast of the weather "
+"conditions.\n"
+msgstr ""
+"NVDA+Shift+w, натиснута двічі, надає погодинний прогноз погодних умов.\n"
+
+#: buildVars.py:27
+msgid "NVDA+shift+control+w for quickly enter a temporary city.\n"
+msgstr "NVDA+shift+control+w для швидкого введення тимчасового міста.\n"
+
+#: buildVars.py:28
+msgid "NVDA + shift + control + alt + w for open the Weather Plus settings.\n"
+msgstr "NVDA+Shift+Control+Alt+w для відкриття налаштувань Weather Plus.\n"
+
+#: buildVars.py:29
+msgid ""
+"NVDA+alt+w announces the date of the last update of the weather report.\n"
+msgstr "NVDA+alt+w оголошує дату останнього оновлення прогнози погоди.\n"
+
+#: buildVars.py:30
+msgid "Shift+control+w alternates between Fahrenheit, Celsius and Kelvin.\n"
+msgstr "Shift+Ctrl+w перемикання між шкалою Фаренгейта, Цельсія і Кельвіна.\n"
+
+#: buildVars.py:31
+msgid ""
+"For other instructions, you can also press Add-on Help button in Add-ons "
+"manager."
+msgstr ""
+"Для отримання додаткових інструкцій, ви можете натиснути кнопку \"Довідка\" "
+"в менеджері додатків."
+
+#~ msgid "Attenction!"
+#~ msgstr "Увага!"

@@ -1,31 +1,31 @@
 # Weather Plus #
 
-* Author: Adriano Barbieri
-* NVDA compatibility: 2017.3 to beyond
-* Download: [Stable Version][1]
+* المطوِّر: Adriano Barbieri
+* التوافُق مع NVDA: 2017.3 وما بعده.
+* رابط التنزيل: [Stable Version][1]
 
-# ABOUT WEATHER PLUS: #
+# حول إضافة WEATHER PLUS: #
 
-* This plugin adds local temperature and forecasts to 24 hours up to 2 additional days and hourlyforecast for NVDA.
-* Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)
-* Released under the GNU GPL (General Public License) v2
-* Weather Plus works through the use and presence of the following services:
+* تُضيفُ هذه الإضافة إلى NVDA خاصية معرفة درجة الحرارة المحلية وتوقُّعات الطقس لأربع وعشرين ساعة، إضافةً لتوقُّعات أحوال الطقس ليومين إضافيين.
+* حقوقُ الطباعة  (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)
+* منشورة ضمن رخصة GNU GPL (General Public License) v2
+* تعمل Weather Plus باستخدام الخدمات الآتية:
 * [https://www.weatherapi.com/](https://www.weatherapi.com/)
 * [http://www.geonames.org/](http://www.geonames.org/)
 * [http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)
 * [https://www.nvda.it/](https://www.nvda.it/)
 
-# USAGE: #
+# الاستخدام: #
 
-* Press NVDA+w to get the information about current temperature and weather conditions.
-* Press NVDA+shift+W to get 24 hours forecast and forecast up to 2 days.
-* Press NVDA+shift+W twice to get hourlyforecast of temperature and atmospheric conditions.
-* Press NVDA+shift+control+w to set a temporary city.
-* Press NVDA+shift+control+alt+w to open the Weather Plus settings dialog.
-* Press NVDA+alt+w to get the date and time, when the weather report was updated.
-* Press control+shift+w to toggle between Fahrenheit, Celsius or Kelvin temperature scales.
+* اضغَطْ NVDA+w للحصول على معلومات عن درجة الحرارة وأحوال الطقس الحالية.
+* اضغَطْ NVDA+shift+W للحصول على توقُّعات الطقس للأربع والعشرين الساعة، إضافة لليومين القادمين..
+* اضغَطْ NVDA+shift+W مرتين للحصول على توقُّعات درجات الحرارة وأحوال الطقس لكلّ ساعة.
+* اضغَطْ NVDA+shift+control+w لضبط مدينةٍ مؤقتة.
+* اضغَطْ NVDA+shift+control+alt+w فتح مربّع الحوار الخاص بإعدادات إضافة Weather Plus .
+* اضغَطْ NVDA+alt+w للحصول على الوقت والتاريخ عند حُدوث تحديث لتقرير أحوال الطقس.
+* اضغَطْ control+shift+w للتبديل بين وحدات القياس المختلفة لدرجة الحرارة: فهرنهايت، مئوية كلفين.
 
-# Weather Plus setup: #
+# ضبطُ Weather Plus: #
 
 * You must set the Weather Plus addon before its first use! Go to the Preferences submenu, Weather Plus Settings submenu and choose one of the following options:
  * Set and Manage Your Cities... - Displays or allows to set the current city from a list.
@@ -76,6 +76,7 @@ To add a new city: press the following item:
 * Add ultraviolet radiation value; check box checked (by default)
 * Read astronomical information; indicates the time of sunrise and sunset and the time of moonrise and moonset. Checkbox not checked (by default)
 * Use the comma to separate decimals; if enabled, uses the comma as a decimal separator, otherwise, use the point. Checkbox not checked (by default)
+* Displays output in a window; if is activated this displays the forecast in a window. Checkbox not checked (by default)
 * Check for upgrade; if is activated this alerts when there is an update of the addon. Checkbox checked (by default)
 * Press the OK button to confirm the action or the Cancel button to cancel the action.
 * If you have modified the cities list, by pressing "Cancel", you will be remembered and you can still save it. Note: your settings will be save in the file named:
