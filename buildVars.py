@@ -24,7 +24,7 @@ addon_info = {
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : [
-	_("Adds local temperature and forecast 24 ours and prediction up to 2 days.\n"),
+	_("Adds local temperature and forecast 24 hours and prediction up to 2 days.\n"),
 	_("NVDA+w for the current bulletin.\n"),
 	_("NVDA+shift+w for the prediction in the current 24 hours and prediction up to 2 days.\n"),
 	_("NVDA+shift+w, pressed twice provides the hourlyforecast of the weather conditions.\n"),
@@ -35,7 +35,7 @@ addon_info = {
 	_("For other instructions, you can also press Add-on Help button in Add-ons manager.")
 	],
 	# version
-	"addon_version" : "8.2",
+	"addon_version" : "8.3",
 	# Author(s)
 	"addon_author" : "Adriano Barbieri <adrianobarb@yahoo.it>",
 	# URL for the add-on documentation support
