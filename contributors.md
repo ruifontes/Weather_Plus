@@ -22,9 +22,10 @@
 | pl | Polish | Polish | Zvonimir Stanecic | zvonimirek222@yandex.com |
 | pt_BR | Brazilian-Portuguese | Portuguese (Portugal) | Ângelo Miguel Abrantes | ampa4374@gmail.com |
 | pt_PT | Portuguese (Portugal) | Portuguese (Portugal) | Ângelo Miguel Abrantes | ampa4374@gmail.com |
-| ___ | ___ | ___ | Rui Fontes | rui.fontes@tiflotecnia.net |
+| ___ | ___ | ___ | Rui Fontes | rui.fontes@tiflotecnia.com |
 | ro | Romanian | Romanian | Florian Ionașcu | florianionascu@hotmail.com |
 | ru | Russian | Russian | Alex Yeshanu | eshanuap@gmail.com |
 | sk | Slovak | Slovak | Peter Halada | pietro4044@gmail.com |
 | sr | Serbian | Croatian | Gašić Dejan (Gashich Deyan) | gasicd@gmail.com |
 | uk | Ukrainian | Ukrainian | Alex Yeshanu | eshanuap@gmail.com |
+| vi | Vietnamese | Vietnamese | Cuong Dang Manh | dangmanhcuong@gmail.com |
