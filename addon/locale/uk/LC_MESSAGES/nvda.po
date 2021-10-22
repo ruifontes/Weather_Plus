@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Weather_Plus\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2021-07-25 21:18+0100\n"
-"PO-Revision-Date: 2021-07-25 22:58+0100\n"
-"Last-Translator: Rui Fontes  <rui.fontes@tiflotecnia.com>\n"
+"PO-Revision-Date: 2021-10-22 18:33+0300\n"
+"Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
 "Language-Team: Alex Yeshanu <eshanuap@gmail.com>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Показати елементи конфігурації."
 #. Translators: item to open primary configuration window
 #: addon\globalPlugins\Weather_Plus\__init__.py:108
 msgid "Set and &manage your cities..."
-msgstr "&Установка і управління містами..."
+msgstr "&Встановлення й керування містами..."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:108
 msgid "Displays or allows to set the current cities from a list"
@@ -58,7 +58,7 @@ msgstr "Показує або дозволяє встановити поточн
 #. Translators: item to open window to set up a temporary city
 #: addon\globalPlugins\Weather_Plus\__init__.py:111
 msgid "Set a &temporary city..."
-msgstr "Встановити тимчасовий місто..."
+msgstr "Встановити тимчасове місто..."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:111
 msgid "Allows to set one temporary city from a list"
@@ -80,7 +80,7 @@ msgstr "Перевірити &оновлення..."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:119
 msgid "Notify if there is an upgraded version available"
-msgstr "Повідомляти, якщо доступна оновлена версія"
+msgstr "Повідомляти, якщо доступна нова версія"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:168
 msgid "nanometers"
@@ -101,7 +101,7 @@ msgstr "дюймів"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:174
 msgid "inches of mercury"
-msgstr "дюйми ртутного стовпа"
+msgstr "дюйми ртутного стовпчика"
 
 #. Celsius and Kelvin
 #: addon\globalPlugins\Weather_Plus\__init__.py:177
@@ -118,11 +118,11 @@ msgstr "міліметрів"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:180
 msgid "millibars"
-msgstr "міллібарів"
+msgstr "мілібарів"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:182
 msgid "millimeters of mercury"
-msgstr "міліметрів ртутного стовпа"
+msgstr "міліметрів ртутного стовпчика"
 
 #. opens the Weather Plus settings window
 #. Translators: the title of main settings window
@@ -144,7 +144,7 @@ msgstr "Нічого"
 #. Translators: the message in the main settings window
 #: addon\globalPlugins\Weather_Plus\__init__.py:210
 msgid "Enter a City or choose one from the list, if available."
-msgstr "Введіть місто або виберіть одне зі списку, якщо воно наявно."
+msgstr "Введіть місто або виберіть одне зі списку, якщо воно наявне."
 
 #. Translators: dialog message in case of invalid city or with incomplete data
 #. Translators: dialog message used to describe one of the 2 types of errors in city
@@ -196,7 +196,7 @@ msgstr "Бажаєте його зберегти?"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:480
 msgid "The cities on your list are not compatible with the Weather API!"
-msgstr "Міста в вашому списку не сумісні з API погоди!"
+msgstr "Міста у вашому списку не сумісні з Weather API!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:481
 msgid ""
@@ -204,7 +204,7 @@ msgid ""
 "window."
 msgstr ""
 "Вони повинні бути протестовані та перевірені, ви можете зробити це з вікна "
-"налаштувань аддона."
+"налаштувань додатка."
 
 #. Translators: the dialog title to  setting a temporary city
 #: addon\globalPlugins\Weather_Plus\__init__.py:495
@@ -218,7 +218,7 @@ msgstr "Список доступних міст:"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:531
 msgid "Documentation not available for the current language!"
-msgstr "Документація недоступна для поточної мови!"
+msgstr "Для поточної мови документація недоступна!"
 
 #. Translators: dialog message and title used when it was not possible to find data
 #: addon\globalPlugins\Weather_Plus\__init__.py:580
@@ -240,7 +240,7 @@ msgid ""
 "active, or try again later!"
 msgstr ""
 "На жаль, неможливо отримати дані, переконайтеся, що ваше інтернет-з'єднання "
-"активно або спробуйте ще раз!"
+"активне або спробуйте ще раз!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:595
 msgid "version"
@@ -261,21 +261,21 @@ msgstr "Ви хочете завантажити і встановити йог�
 #. Translators: dialog message used when a new version is not available
 #: addon\globalPlugins\Weather_Plus\__init__.py:602
 msgid "Sorry, at the time an update is not available."
-msgstr "На жаль, на даний момент оновлення не доступно."
+msgstr "На жаль, наразі оновлення не доступне."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1080
 #: addon\globalPlugins\Weather_Plus\__init__.py:2916
 #: addon\globalPlugins\Weather_Plus\__init__.py:5391
 msgid "not found!"
-msgstr "не знайден!"
+msgstr "не знайдено!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1081
 msgid ""
 "You need to upgrade the sound effects by reactivating the appropriate option "
 "from the settings of"
 msgstr ""
-"Вам необхідно оновити звукові ефекти, для чого треба активізувати відповідну "
-"опцію в налаштуваннях"
+"Вам необхідно оновити звукові ефекти, для чого треба активувати відповідний "
+"параметр у налаштуваннях"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1083
 msgid "But if these are already updated, then you need to update"
@@ -339,7 +339,7 @@ msgstr "Пориви вітру"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1504
 msgid "The perceived temperature is"
-msgstr "Сприймається температура"
+msgstr "Температура за відчуттям"
 
 #. addss information on the atmosphere
 #: addon\globalPlugins\Weather_Plus\__init__.py:1511
@@ -440,7 +440,7 @@ msgstr "метрів за секунду"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1788
 msgid "Sorry, the city set is not valid or contains incomplete data!"
-msgstr "Вибачте, місто встановлене неправильно або містить неповні дані!"
+msgstr "Вибачте, місто встановлено неправильно або містить неповні дані!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:1796
 msgid "north"
@@ -576,9 +576,9 @@ msgid ""
 "24 hours and the next %d days. If pressed twice announce the hourlyforecast "
 "temperature and weather conditions."
 msgstr ""
-"При натисканні один раз, оголошує прогноз погоди і поточну температуру "
-"Протягом 24 годин і наступних %d днів. При натисканні двічі оголошує "
-"погодинну температуру і погодні умови."
+"При натисканні один раз, оголошує прогноз погоди і поточну температуру на 24 "
+"години і наступних %d днів. При натисканні двічі оголошує погодинну "
+"температуру і погодні умови."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2005
 msgid "Sorry, no list available!"
@@ -606,7 +606,7 @@ msgstr "Останнє оновлення прогнозу погоди"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2121
 msgid "Announces the date of the last update of the weather report."
-msgstr "Оголошення дати останнього оновлення погоди."
+msgstr "Оголошує дату останнього оновлення прогнозу погоди."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2181
 msgid "Open the Weather Plus settings dialog."
@@ -617,8 +617,8 @@ msgid ""
 "f1: help placing, f2: last TAB selection, f3: list and edit box, f4: control "
 "duration Weather Forecast, f5: volume controls."
 msgstr ""
-"f1: допомога розміщення, f2: останній вибір TAB, f3: список і вікно "
-"редагування, f4: управління тривалістю прогнозу погоди, f5: управління "
+"f1: допомога з пошуком розташування, f2: останній вибір TAB, f3: список і "
+"вікно редагування, f4: керування тривалістю прогнозу погоди, f5: керування "
 "гучністю."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2226
@@ -626,8 +626,8 @@ msgid ""
 "f1: help placing, f2: last TAB selection, f3: list and edit box, f4: control "
 "duration Weather Forecast."
 msgstr ""
-"f1: допомога розміщення, f2: останній вибір TAB, f3: список і вікно "
-"редагування, f4: управління тривалістю прогнозу погоди."
+"f1: допомога з пошуком розташування, f2: останній вибір TAB, f3: список і "
+"вікно редагування, f4: керування тривалістю прогнозу погоди."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2282
 msgid "Test"
@@ -679,11 +679,11 @@ msgstr "C - F - K"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2343
 msgid "Unspecified"
-msgstr "Не вказувати"
+msgstr "Не вказано"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2351
 msgid "Weather Forecasts up to days:"
-msgstr "Прогноз погоди на число днів:"
+msgstr "Прогноз погоди на кількість днів:"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2362
 msgid "API response language:"
@@ -700,7 +700,7 @@ msgstr ""
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2376
 msgid "Enable &audio effects (only for the current weather conditions)"
-msgstr "Включити &аудіо ефекти (тільки для поточної погоди)"
+msgstr "Увімкнути &аудіо ефекти (тільки для поточної погоди)"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2379
 msgid "Use only &weather effects"
@@ -717,7 +717,7 @@ msgstr "Поточна гучність звуку"
 #. check boxes
 #: addon\globalPlugins\Weather_Plus\__init__.py:2417
 msgid "Enable &help buttons in the settings window"
-msgstr "Включити кнопки з &підказками у вікні налаштувань"
+msgstr "Увімкнути кнопки з &підказками у вікні налаштувань"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2424
 msgid "Read &wind information"
@@ -744,11 +744,11 @@ msgstr "Додати швидкість і пориви вітру"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2445
 msgid "Add perceived &temperature"
-msgstr "Додати сприйняту &температуру"
+msgstr "Додати температуру &сприйняття"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2450
 msgid "&Read atmospherical information"
-msgstr "Читати ат&мосферную інформацію"
+msgstr "Читати ат&мосферну інформацію"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2455
 #: addon\globalPlugins\Weather_Plus\__init__.py:6005
@@ -781,7 +781,8 @@ msgstr "&Додати значення атмосферного тиску"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2479
 msgid "Indicates the atmospheric pressure in millimeters of mercur&y (mmHg)"
-msgstr "Вказувати атмосферний тиск в міліметрах рт&утного стовпа (мм рт.ст.)"
+msgstr ""
+"Вказувати атмосферний тиск в міліметрах рт&утного стовпчика (мм рт.ст.)"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2484
 msgid "Read a&stronomical information"
@@ -789,7 +790,7 @@ msgstr "Читати аст&рономічну інформацію"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2488
 msgid "Enable reading of the hours in &24-hour format"
-msgstr "Включити читання годин в &24-годинному форматі"
+msgstr "Увімкнути читання годин в &24-годинному форматі"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2493
 msgid "Use the comma to separate decimals, example (4,&15)"
@@ -797,11 +798,11 @@ msgstr "Використовувати коми для розділення де
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2497
 msgid "&Displays output in a window"
-msgstr "&Відображає вихід у вікні"
+msgstr "&Відображає виведення у вікні"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2501
 msgid "Check for &upgrade"
-msgstr "Перевір&яти оновлення"
+msgstr "Перевіряти &оновлення"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2528
 msgid "Test the city validity  and find the data of it."
@@ -824,8 +825,8 @@ msgid ""
 "Presets the current city as the default, will be used every time you restart "
 "the plugin."
 msgstr ""
-"Налаштовує поточне місто за замовчуванням. Використовуватиметься після "
-"кожного перезапуску плагіна."
+"Встановлює поточне місто як початкове. Використовуватиметься після кожного "
+"перезапуску плагіна."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2533
 msgid "Delete  the current city from your list."
@@ -843,7 +844,7 @@ msgid ""
 msgstr ""
 "Дозволяє включати в свій список нові міста, імпортуючи їх з іншого списку з "
 "розширенням *.zipcodes. Ви можете вибрати місто, яке потрібно імпортувати, "
-"встановивши відповідний прапорець."
+"позначивши відповідний прапорець."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2536
 msgid "Permits to save your list of cities in a specified path."
@@ -871,7 +872,7 @@ msgstr "За назвою міста: Toronto,Canada"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2648
 msgid "Or Toronto,CA"
-msgstr "Или Toronto,CA"
+msgstr "Або Toronto,CA"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2649
 msgid "By City name and region: Toronto,Ontario"
@@ -907,12 +908,11 @@ msgstr "За IP-адресою (підтримується IPv4 і IPv6): 100.0.
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2657
 msgid "if there will be cities with the same name, will be listed"
-msgstr "якщо будуть міста з тим же ім'ям, вони будуть перераховані"
+msgstr "якщо будуть міста з такою ж назвою, вони будуть перераховані"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2658
 msgid "By default, confirming a selection, is used the postal code"
-msgstr ""
-"За замовчуванням, для підтвердження вибору використовується поштовий індекс"
+msgstr "Початково для підтвердження вибору використовується поштовий індекс"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2659
 msgid ""
@@ -924,15 +924,15 @@ msgstr ""
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2660
 msgid "You can indicate how to proceed by prefixing the following commands"
-msgstr "Ви можете вказати, як діяти шляхом префікса наступних команд"
+msgstr "Ви можете вказати, як діяти, шляхом префікса таких команд"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2661
 msgid ""
 "Direct (cities with the same name, will not listed), by typing D:City: D:"
 "Paris"
 msgstr ""
-"Прямі (міста з тим же ім'ям, що не будуть перераховані), набравши D: city: "
-"D: Paris"
+"Прямі (міста з тією ж назвою, що не будуть перераховані), набравши D:city: D:"
+"Paris"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2662
 msgid "Geographic coordinates, by typing G:City: G:Venezia"
@@ -944,11 +944,11 @@ msgstr "Текстовий рядок, набравши T:city: T:Bologna"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2664
 msgid "If the city is not found"
-msgstr "Якщо місто не найдено"
+msgstr "Якщо місто не знайдено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2665
 msgid "Try to reverse the order in the search key"
-msgstr "Спробуйте змінити порядок в запиті пошуку"
+msgstr "Спробуйте змінити порядок у пошуковому запиті"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2666
 msgid "Try with or without the country of origin"
@@ -977,7 +977,7 @@ msgstr "Спробуйте найближче розташування"
 #. Translators: the title of the help window
 #: addon\globalPlugins\Weather_Plus\__init__.py:2674
 msgid "Help placing"
-msgstr "Допомога розміщення"
+msgstr "Допомога з пошуком розташування"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2771
 msgid "No sound effect in memory!"
@@ -985,17 +985,17 @@ msgstr "Немає звукового ефекту в пам'яті!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2772
 msgid "I can't reproduce the sound."
-msgstr "Я не можу відтворити звук."
+msgstr "Не можу відтворити звук."
 
 #. Translators: message dialog
 #: addon\globalPlugins\Weather_Plus\__init__.py:2868
 msgid "Choose search key for"
-msgstr "Виберіть запит пошуку для"
+msgstr "Виберіть пошуковий запит для"
 
 #. Translators: the dialog message
 #: addon\globalPlugins\Weather_Plus\__init__.py:2888
 msgid "Unfortunately I could not recover enough data to find the city."
-msgstr "На жаль, не вийшло відновити достатньо даних, щоб знайти місто."
+msgstr "На жаль, не вдалося відновити достатньо даних, щоб знайти місто."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2889
 msgid "Do I try anyway?"
@@ -1007,7 +1007,7 @@ msgstr "не знайдено! Натисніть F1 для довідки що�
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2943
 msgid "Is not working properly or has been removed from the database of"
-msgstr "Чи не працює належним чином або був видалений з бази даних"
+msgstr "Не працює належним чином або був видалений з бази даних"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2947
 msgid "Is no longer valid!"
@@ -1015,7 +1015,7 @@ msgstr "Більше не діє!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2980
 msgid "This option requires the installation of some audio effects"
-msgstr "Ця установка вимагає установки деяких аудіо ефектів"
+msgstr "Цей параметр вимагає встановлення деяких аудіоефектів"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2981
 msgid "Do you want to install them?"
@@ -1027,11 +1027,11 @@ msgstr "Аудіо ефекти встановлені!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2986
 msgid "Would you like to update?"
-msgstr "Ви бажаєте оновити?"
+msgstr "Бажаєте оновити?"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2987
 msgid "Or do you want to uninstall them?"
-msgstr "Або хочете видалити їх?"
+msgstr "Чи хочете їх видалити?"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:2994
 msgid "Are you sure you want to uninstall the sound effects?"
@@ -1044,12 +1044,12 @@ msgstr "Йде оновлення"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3023
 msgid "Installation in progress"
-msgstr "Прогрес установки"
+msgstr "Перебіг встановлення"
 
 #. Installation Complete
 #: addon\globalPlugins\Weather_Plus\__init__.py:3052
 msgid "The installation of audio effects has been completed successfully!"
-msgstr "Установка аудіо ефектів успішно завершена!"
+msgstr "Встановлення аудіоефектів успішно завершено!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3053
 msgid "Adding folder:"
@@ -1057,7 +1057,7 @@ msgstr "Додана папка:"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3055
 msgid "The upgrade of audio effects has been completed successfully!"
-msgstr "Оновлення аудіо ефектів успішно завершено!"
+msgstr "Оновлення аудіоефектів успішно завершено!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3062
 msgid "These sound effects are subject to change by the author."
@@ -1065,13 +1065,13 @@ msgstr "Ці звукові ефекти можуть бути змінені а
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3063
 msgid "Disable and re-enable this option in order to update or uninstall them."
-msgstr "Відключити і знову включити цей параметр, щоб оновити або видалити їх."
+msgstr "Вимкнути і знову увімкнути цей параметр, щоб оновити або видалити їх."
 
 #. Translators: dialog message and title used to notify lack of connection or corrupt file, during the sound effects installation
 #: addon\globalPlugins\Weather_Plus\__init__.py:3124
 msgid "Verify that your internet connection is active, or try again later."
 msgstr ""
-"Переконайтеся, що підключення до інтернету активно або спробуйте ще раз."
+"Переконайтеся, що підключення до інтернету активне або спробуйте ще раз."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3125
 msgid "File corrupted or not available!"
@@ -1079,11 +1079,11 @@ msgstr "Файл пошкоджений або не доступний!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3127
 msgid "Sorry, I could not complete the installation of the sound effects!"
-msgstr "На жаль, закінчити установку звукових ефектів неможливо!"
+msgstr "На жаль, закінчити встановлення звукових ефектів неможливо!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3128
 msgid "Installation Error!"
-msgstr "Помилка Установки!"
+msgstr "Помилка встановлення!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3234
 msgid ""
@@ -1215,7 +1215,7 @@ msgstr "міст"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3672
 msgid "Activate the check boxes of the cities you want to import."
-msgstr "Відзначте прапорці міст, які потрібно імпортувати."
+msgstr "Позначте прапорці міст, які потрібно імпортувати."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3693
 msgid "Importing cities in progress"
@@ -1235,7 +1235,7 @@ msgstr "Було проігноровано, оскільки існують"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3787
 msgid "Content of imported list"
-msgstr "Зміст імпортованого списку"
+msgstr "Вміст імпортованого списку"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3788
 msgid "Containing incomplete data"
@@ -1247,7 +1247,7 @@ msgstr "вибрані користувачем"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3790
 msgid "Import finished"
-msgstr "Імпорт закінчен"
+msgstr "Імпорт закінчено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3802
 msgid "A copy of"
@@ -1279,7 +1279,7 @@ msgstr "Значення даних погодинного прогнозу."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:3847
 msgid "Disable the data you don't want to be processed:"
-msgstr "Відключити дані, які ви не хочете обробляти:"
+msgstr "Вимкнути дані, які ви не хочете обробляти:"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4620
 msgid "january"
@@ -1364,7 +1364,7 @@ msgstr "Неможливо знайти абревіатуру \"%s\"!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4697
 msgid "This may not allow you to get the city details."
-msgstr "Це може не дозволити вам отримати деталі міста."
+msgstr "Це може не дозволити вам отримати подробиці міста."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4698
 msgid ""
@@ -1380,7 +1380,7 @@ msgstr "Відправте лист на %s"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4700
 msgid "With  object the line below, thanks."
-msgstr "З об'єктом рядку нижче, спасибі."
+msgstr "З об'єктом у рядку нижче, дякую."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4768
 #: addon\globalPlugins\Weather_Plus\__init__.py:4786
@@ -1397,11 +1397,11 @@ msgstr "Знайти..."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4808
 msgid "Find next"
-msgstr "Знайти Наступну"
+msgstr "Знайти Наступне"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:4809
 msgid "Find previous"
-msgstr "Знайти Попередню"
+msgstr "Знайти Попереднє"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5008
 msgid "Be an error has occurred."
@@ -1428,7 +1428,7 @@ msgstr "для"
 #. Translators: message dialog
 #: addon\globalPlugins\Weather_Plus\__init__.py:5188
 msgid "Choose a city."
-msgstr "Вибрати місто."
+msgstr "Виберіть місто."
 
 #. get hotkeys
 #: addon\globalPlugins\Weather_Plus\__init__.py:5190
@@ -1441,7 +1441,7 @@ msgstr "Більше не показувати це повідомлення!"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5232
 msgid "&Install..."
-msgstr "У&становити..."
+msgstr "&Встановити..."
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5232
 msgid "Upd&ate..."
@@ -1490,11 +1490,11 @@ msgstr "&зняти виділення"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5479
 msgid "not checked"
-msgstr "не відзначений"
+msgstr "не позначено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5481
 msgid "checked"
-msgstr "відзначений"
+msgstr "позначено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5485
 msgid "check box"
@@ -1502,11 +1502,11 @@ msgstr "прапорець"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5495
 msgid "check boxes checked"
-msgstr "прапорці відзначені"
+msgstr "прапорці позначено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5504
 msgid "check boxes not checked"
-msgstr "прапорці не відзначені"
+msgstr "прапорці не позначено"
 
 #: addon\globalPlugins\Weather_Plus\__init__.py:5566
 msgid "Saving in progress"
@@ -1554,7 +1554,7 @@ msgstr "NVDA+Shift+Control+Alt+w для відкриття налаштуван�
 #: buildVars.py:33
 msgid ""
 "NVDA+alt+w announces the date of the last update of the weather report.\n"
-msgstr "NVDA+alt+w оголошує дату останнього оновлення прогнози погоди.\n"
+msgstr "NVDA+alt+w оголошує дату останнього оновлення прогнозу погоди.\n"
 
 #: buildVars.py:34
 msgid "Shift+control+w alternates between Fahrenheit, Celsius and Kelvin.\n"
