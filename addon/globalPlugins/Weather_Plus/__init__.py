@@ -9,9 +9,9 @@
 #Released under GPL 2
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
-#Version 8.5.
+#Version 8.7.
 #NVDA compatibility: 2017.3 to beyond.
-#Last Edit date September, 06th, 2021.
+#Last Edit date November, 19th, 2021.
 
 import os, sys, winsound, config, globalVars, ssl, json
 import globalPluginHandler, scriptHandler, languageHandler, addonHandler
@@ -1410,10 +1410,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			try:
 				self.dom['current']['last_updated_epoch']
 			except (KeyError, TypeError): self.dom = None; return self.ZipCodeError()
-			if mess:
-				#notify last build date failed
-				Shared().Play_sound("messagefailure", 1)
-				ui.message(mess)
 
 			scale_as = self.GetScaleAs() #degrees indication selected
 			if not forecast:
@@ -1569,7 +1565,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					ss = self.dom['forecast']['forecastday'][0]['astro']['sunset']
 					lr = self.dom['forecast']['forecastday'][0]['astro']['moonrise']
 					ls = self.dom['forecast']['forecastday'][0]['astro']['moonset']
-					sr, ss, lr, ls = self.CheckValues([sr, ss, lr, ls])
 					if self.to24Hours:
 						sr = Shared().To24h(sr) #sunrise
 						ss = Shared().To24h(ss) #sunset
@@ -1586,6 +1581,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					_("and sets at"), ss or _nr,
 					_("The moon rises at"), lr or _nr,
 					_("and sets at"), ls or _nr)
+					weatherReport = weatherReport.replace("No moonrise",_("No moonrise"))
+					weatherReport = weatherReport.replace("No moonset",_("No moonset"))
+					weatherReport = weatherReport.replace("No sunrise", _("No sunrise"))
+					weatherReport = weatherReport.replace("No sunset", _("No sunset"))
 
 				if self.toSample and os.path.exists(_samples_path):
 					self.Play_Sample(condition_code, temperature, wind_f) #He plays the appropriate sound effect if present
@@ -1602,11 +1601,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				month1 = ""
 				try:
 					high = self.dom['forecast']['forecastday'][0]['day']['maxtemp_f'] or _nr
+					low = self.dom['forecast']['forecastday'][0]['day']['mintemp_f'] or _nr
 				except IndexError: return Shared().JsonError()
-				low = self.dom['forecast']['forecastday'][0]['day']['mintemp_f'] or _nr
 				if self.celsius != 0: #conversion only for Celsius and Kelvin degrees scale
 					high = self.dom['forecast']['forecastday'][0]['day']['maxtemp_c'] or _nr
 					low = self.dom['forecast']['forecastday'][0]['day']['mintemp_c'] or _nr
+
 				weatherReport = '%s %s %s %s %s %s %s %s.' % (
 				_("the forecast for today is"),
 				self.dom['forecast']['forecastday'][0]['day']['condition']['text'],
@@ -1628,8 +1628,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					else:
 						week_day = Shared().ConvertDate(week_day)
 						month1 = month
-					high = self.dom['forecast']['forecastday'][i]['day']['maxtemp_f']
-					low = self.dom['forecast']['forecastday'][i]['day']['mintemp_f']
+					high = self.dom['forecast']['forecastday'][i]['day']['maxtemp_f'] or _nr
+					low = self.dom['forecast']['forecastday'][i]['day']['mintemp_f'] or _nr
 					if self.celsius != 0: #Celsius and Kelvin degrees scale
 						high = self.dom['forecast']['forecastday'][i]['day']['maxtemp_c'] or _nr
 						low = self.dom['forecast']['forecastday'][i]['day']['mintemp_c'] or _nr
@@ -1645,6 +1645,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			#puts the city name at the left top 
 			weatherReport = '%s %s, %s' % \
 			(_("In"), self.city or _("Unnamed"), weatherReport)
+			if mess:
+				#notify last build date failed
+				Shared().Play_sound("messagefailure", 1)
+				weatherReport = '%s\n%s' % (mess, weatherReport)
+
 			if self.toClip:
 				# Copy the bulletin or weather forecasts to the clipboard.
 				api.copyToClip(weatherReport)
@@ -1656,15 +1661,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			Shared().Play_sound(False, 1)
 			weatherReport = _("Sorry, the city is not set!")
 		return weatherReport
-
-	def CheckValues(self, listvalues):
-		"""Check if valid timetables"""
-		ret = []
-		for v in listvalues:
-			if v in ["No moonrise", "No moonset", "No sunrise", "No sunset"]: ret.append("")
-			else: ret.append(v)
-
-		return ret
 
 
 	def Open_Dom(self, zip_code):
@@ -2135,7 +2131,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			week_day, day, month, year, _("at"), lbdTime
 			)
 
-		ui.message('%s: %s.' % (_("Last update of the current weather report"), last_build_date))
+		weatherReport = ('%s: %s.' % (_("Last update of the current weather report"), last_build_date))
+		ui.message(weatherReport)
+		if self.toClip:
+			# Copy the bulletin last edit date to the clipboard.
+			api.copyToClip(weatherReport)
 
 	script_announceLastBuildDate.__doc__ = _("Announces the date of the last update of the weather report.")
 
@@ -4521,7 +4521,7 @@ class Shared:
 
 	def Add_zero(self, hour, p = True):
 		""" add zero  to left of number with len 1"""
-		if hour == "": return hour
+		if hour in ["No moonrise", "No moonset", "No sunrise", "No sunset", ""]: return hour
 		if p:
 			p = hour[-2:] #pm or am
 			hour = hour[:-3] # hour and minute
@@ -4534,7 +4534,7 @@ class Shared:
 
 	def To24h(self, hour, viceversa = None):
 		"""Convert from 12 to 24 hours and viceversa"""
-		if hour == "": return hour
+		if hour in ["No moonrise", "No moonset", "No sunrise", "No sunset", ""]: return hour
 		if 'datetime' in str(type(hour)):
 			#datetime format get from lastbuilddate returned in 24 hour format
 			hour = '%s:%s' % (hour.hour, hour.minute)
