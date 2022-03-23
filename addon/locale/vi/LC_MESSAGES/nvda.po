@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Weather_Plus\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2021-07-07 17:36+0200\n"
-"PO-Revision-Date: 2022-03-21 14:33+0700\n"
+"PO-Revision-Date: 2022-03-21 15:08+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai Center for the blind <danghoaiphuc@gmail.com>\n"
 "Language: vi\n"
@@ -141,7 +141,7 @@ msgstr "không được khôi phục."
 
 #: __init__.py:382
 msgid "Will be used in temporary mode!"
-msgstr "Sẽ được dùng trong chế độ tạm!"
+msgstr "Sẽ được dùng ở chế độ tạm!"
 
 #: __init__.py:385 __init__.py:413 __init__.py:475 __init__.py:1841
 #: __init__.py:2750 __init__.py:2958 __init__.py:2963 __init__.py:3033
@@ -892,7 +892,7 @@ msgstr "Thử xóa đi dấu phảy trên"
 
 #: __init__.py:2645
 msgid "Try changing the vowels accented with normal vowels"
-msgstr "Hãy thử thay đổi nguyên âm có dấu bằng nguyên âm bình thường"
+msgstr "Thử thay đổi nguyên âm có dấu bằng nguyên âm bình thường"
 
 #: __init__.py:2646
 msgid "Try to change in English some parts"
@@ -1441,8 +1441,7 @@ msgstr "&Chép vào bộ nhớ tạm"
 #: buildVars.py:23
 msgid ""
 "Adds local temperature and forecast 24 ours and prediction up to 2 days.\n"
-msgstr ""
-"Thêm nhiệt độ địa phương,  dự báo trong 24 giờ và đến hai ngày tiếp sau.\n"
+msgstr "Thêm nhiệt độ địa phương,  dự báo trong 24 giờ và hai ngày tiếp sau.\n"
 
 #: buildVars.py:24
 msgid "NVDA+w for the current bulletin.\n"
@@ -1452,7 +1451,7 @@ msgstr "NVDA+w để biết thông tin hiện tại.\n"
 msgid ""
 "NVDA+shift+w for the prediction in the current 24 hours and prediction up to "
 "2 days.\n"
-msgstr "NVDA+shift+w để dự báo cho 24 giờ hiện tại và đến hai ngày sau đó.\n"
+msgstr "NVDA+shift+w để dự báo cho 24 giờ hiện tại và hai ngày sau đó.\n"
 
 #: buildVars.py:26
 msgid ""
@@ -1472,7 +1471,7 @@ msgstr "NVDA + shift + control + alt + w để mở cài đặt Weather Plus. \\
 msgid ""
 "NVDA+alt+w announces the date of the last update of the weather report.\n"
 msgstr ""
-"NVDA + alt + w thông báo ngày cập nhật cuối cùng của dự báo thời tiết. \\ N\n"
+"NVDA + alt + w thông báo ngày cập nhật dự báo thời tiết cuối cùng. \\ N\n"
 
 #: buildVars.py:30
 msgid "Shift+control+w alternates between Fahrenheit, Celsius and Kelvin.\n"
@@ -1483,7 +1482,7 @@ msgid ""
 "For other instructions, you can also press Add-on Help button in Add-ons "
 "manager."
 msgstr ""
-"Để có thêm thông tin, bạn cũng có thể bấm nút trợ giúp Add-on trong trình "
+"Để được hướng dẫn thêm, bạn cũng có thể bấm nút trợ giúp Add-on trong trình "
 "quản lý Add-on."
 
 #~ msgid "Enter a City, woeId or choose one from the list, if available."
